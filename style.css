@@ -55,7 +55,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* -----------------------HEADER-------------------------- */
@@ -555,6 +555,7 @@ section {
 
 .navikarnam {
   display: flex;
+  height: 100vh;
 }
 
 .navi-left-section {
@@ -1083,6 +1084,7 @@ section {
   .navikarnam {
     flex-direction: column;
     border-top: 1px solid white;
+    height: auto;
   }
 
   .navikarnam .navi-left-section,
