@@ -207,6 +207,8 @@ section {
   color: rgb(22, 22, 22);
 }
 
+
+
 /* ----active-class--- */
 
 .active {
@@ -290,7 +292,7 @@ section {
   z-index: 20;
 }
 
-.landing-page .title h1 {
+.landing-page .title .prodyogeeky-title {
   font-size: 9rem;
   letter-spacing: 1.5rem;
   text-shadow: 0 0 10px #9d00c6,
@@ -300,6 +302,18 @@ section {
   0 0 120px #9d00c6;
   margin-left: 9rem;
   white-space: nowrap;
+}
+
+.date {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  text-shadow: 0 0 10px #9d00c6,
+  0 0 20px #9d00c6,
+  0 0 40px #9d00c6,
+  0 0 80px #9d00c6,
+  0 0 120px #9d00c6;
+  white-space: nowrap;
+  margin-left: 37%;
 }
 
 .landing-page .jumping-arrow {
@@ -871,7 +885,7 @@ section {
     width: 100%;
   }
 
-  .landing-page .title h1 {
+  .landing-page .title .prodyogeeky-title {
     font-size: 50px;
     margin: 0;
   }
@@ -905,9 +919,13 @@ section {
     font-size: 40%;
   }
 
-  .landing-page .title h1 {
+  .landing-page .title .prodyogeeky-title {
     font-size: 30px;
     margin: 0;
+  }
+
+  .date {
+    margin-left: 25%;
   }
 
   .header .navbar-items {
@@ -1117,7 +1135,7 @@ section {
     left: 70%;
   }
 
-  .landing-page .title h1 {
+  .landing-page .title .prodyogeeky-title {
     font-size: 20px;
   }
 
