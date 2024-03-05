@@ -317,6 +317,27 @@ section {
   margin-left: 37%;
 }
 
+.register-link {
+  position: absolute;
+  bottom: -140px;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  text-shadow: 0 0 10px #9d00c6,
+  0 0 20px #9d00c6,
+  0 0 40px #9d00c6;
+  white-space: nowrap;
+  margin-left: 26%; 
+  border: 3px solid #9d00c6;
+  padding: 2%;
+  border-radius: 10px;
+  transition: all 0.5s ; 
+}
+
+.register-link:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px #9d00c6;
+}
+
 .landing-page .jumping-arrow {
   z-index: 20;
   position: absolute;
@@ -930,6 +951,10 @@ section {
     margin-left: 25%;
   }
 
+  .register-link {
+    margin-left: 10%;
+  }
+
   .header .navbar-items {
     display: none;
   }
@@ -1143,6 +1168,10 @@ section {
   }
 
   .date {
+    font-size: 12px;
+  }
+
+  .register-link {
     font-size: 12px;
   }
 
